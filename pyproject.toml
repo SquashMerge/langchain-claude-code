@@ -1,6 +1,6 @@
 [project]
 name = "langchain-claude-code-mimir"
-version = "0.1.3"
+version = "0.1.4"
 description = "LangChain chat model wrapper for the Claude Code Agent SDK — Mimir distribution of langchain-claude-code with bundled adapter fixes (upstream PRs #2/#4/#6, unmerged). Import package remains ``langchain_claude_code``."
 readme = "README.md"
 license = "MIT"
@@ -16,7 +16,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
-dependencies = ["claude-agent-sdk>=0.2,<0.3", "langchain-core>=1.0,<2"]
+dependencies = ["claude-agent-sdk>=0.2.110,<0.3", "langchain-core>=1.1,<2"]
 
 [project.optional-dependencies]
 examples = [
@@ -37,9 +37,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jasoncarreira/langchain-claude-code"
-Repository = "https://github.com/jasoncarreira/langchain-claude-code"
-Issues = "https://github.com/jasoncarreira/langchain-claude-code/issues"
+Homepage = "https://github.com/SquashMerge/langchain-claude-code"
+Repository = "https://github.com/SquashMerge/langchain-claude-code"
+Issues = "https://github.com/SquashMerge/langchain-claude-code/issues"
 Upstream = "https://github.com/agentmish/langchain-claude-code"
 
 [build-system]
